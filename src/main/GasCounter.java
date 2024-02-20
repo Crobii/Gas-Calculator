@@ -23,5 +23,10 @@ double distanceFullTank = (gallonAmt * efficiency);
 System.out.println("Your distance in miles on a full tank of gas is " + distanceFullTank);
 double priceFullTank = (price * gallonAmt);
 System.out.println("Your price for a full tank is $" + String.format("%.2f", priceFullTank));
+if (distanceFullTank > 100) {
+	System.out.println("AW YEAH!! Your car can go 100 miles}");}
+ if (distanceFullTank < 100) {
+	 System.out.println("Oh... Your car can't go 100 miles.");}
 }
 }
+// >=]
